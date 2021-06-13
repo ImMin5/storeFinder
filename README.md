@@ -4,6 +4,9 @@ OS X
 
 python 3.8.3
 django 3.2.4
+nodejs 14.5.0
+npm 6.14.5
+npx 6.14.5
 
 
 ## 가상환경 설정
@@ -18,6 +21,8 @@ source (DIRNAME)/bin/activate
   pip install django
   # Django 프로젝트 생성
   django-admin startproject (PROJECT NAME)
+  pip install djangorestframework
+  pip install django-cors-headers
  
   # webpack 설치
   npm init -y
