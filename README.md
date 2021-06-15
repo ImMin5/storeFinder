@@ -24,11 +24,24 @@ source (DIRNAME)/bin/activate
   pip install djangorestframework
   pip install django-cors-headers
  
-  # webpack 설치
+  # webpack 설치 x
   npm init -y
   npm i -D webpack webpack-cli
   
-  # babel 설치
+  # babel 설치 x
   npm i -D @babel/core babel-loader @babel/preset-env @babel/preset-react babel-plugin-transform-class-properties
   # react 설치
   npm i react react-dom prop-types
+  # react-bootstarp
+  npm install react-bootstrap bootstrap@4.6.0
+  # router 
+  npm install react-router-dom
+  
+  # 네이버 지도
+  npm install react-naver-maps
+  
+  # 아이콘 
+npm i --save @fortawesome/fontawesome-svg-core
+ npm install --save @fortawesome/react-fontawesome
+ npm i @fortawesome/free-solid-svg-icons
+  
