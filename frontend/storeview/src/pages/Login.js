@@ -26,7 +26,7 @@ function Login(){
   }, [setData]);
  	return(
 	<Container fluid style={LoginStyle}>
-	<NavbarTop/>
+	<NavbarTop type="client"/>
   <Container fluid style={FormStyle}>
   	<Form>
     <Form.Group className="mb-3" controlId="formBasicEmail">

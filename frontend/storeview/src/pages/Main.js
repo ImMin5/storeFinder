@@ -11,7 +11,7 @@ function Main(){
 	}
 	return(
 		<div style={mainStyle} >
-		<NavbarTop/>
+		<NavbarTop type="client" menu1="로그인" menu2="소개"/>
 		<SearchInput/>
 		<MapContainer/>
 		</div>
